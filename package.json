@@ -1,0 +1,17 @@
+{
+	"name": "madeyellow.input-buffer",
+	"displayName": "InputBuffer",
+	"version": "1.0.0",
+	"unity": "2019.1",
+	"author": {
+		"name": "MadeYellow",
+		"url": "https://github.com/madeyellow"
+	},
+	"description": "Buffering input (simple or with value storing) for a configurable time span",
+	"dependencies": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/madeyellow/InputBuffer.git"
+	}
+}
