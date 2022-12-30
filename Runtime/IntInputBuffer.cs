@@ -8,6 +8,18 @@ namespace MadeYellow.InputCaching
     [System.Serializable]
     public class IntInputBuffer : InputBufferValueBase<int>
     {
+        public IntInputBuffer()
+        {
 
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="holdTime">Time span after which buffer should be reset</param>
+        public IntInputBuffer(float holdTime) : base(holdTime)
+        {
+
+        }
     }
 }

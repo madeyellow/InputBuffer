@@ -13,17 +13,30 @@ namespace MadeYellow.InputCaching.Abstractions
         /// </summary>
         private float _timestamp = float.MinValue;
 
-        /// <summary>
-        /// How long input should hold
-        /// </summary>
+        
         [SerializeField]
         [Range(0f, 10f)]
-        private float _duration = 0.25f;
+        private float _holdTime = 0.25f;
+
+        /// <summary>
+        /// Time span after which buffer should be reset
+        /// </summary>
+        public float holdTime => _holdTime;
 
         /// <summary>
         /// Indicates if buffer hold input data at this moment
         /// </summary>
-        public bool hasBuffer => _timestamp + _duration >= Time.time;
+        public bool hasBuffer => _timestamp + _holdTime >= Time.time;
+
+        public InputBufferBase()
+        {
+
+        }
+
+        public InputBufferBase(float holdTime)
+        {
+            _holdTime = holdTime;
+        }
 
         /// <summary>
         /// Updates <see cref="_timestamp"/>, so <see cref="hasBuffer"/> can be checked
@@ -39,6 +52,15 @@ namespace MadeYellow.InputCaching.Abstractions
         public void Reset()
         {
             _timestamp = float.MinValue;
+        }
+
+        /// <summary>
+        /// Changes time span after which buffer should be reset
+        /// </summary>
+        /// <param name="holdTime"></param>
+        public void UpdateHoldTIme(float holdTime)
+        {
+            _holdTime = holdTime;
         }
     }
 }

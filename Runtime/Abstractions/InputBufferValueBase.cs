@@ -9,6 +9,16 @@ namespace MadeYellow.InputCaching.Abstractions
     {
         public TValue value { get; private set; }
 
+        public InputBufferValueBase()
+        {
+
+        }
+
+        public InputBufferValueBase(float holdTime) : base(holdTime)
+        {
+            
+        }
+
         /// <summary>
         /// Set up buffer with value
         /// </summary>

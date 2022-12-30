@@ -9,6 +9,18 @@ namespace MadeYellow.InputCaching
     [System.Serializable]
     public class Vector3InputBuffer : InputBufferValueBase<Vector3>
     {
-        
+        public Vector3InputBuffer()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="holdTime">Time span after which buffer should be reset</param>
+        public Vector3InputBuffer(float holdTime) : base(holdTime)
+        {
+
+        }
     }
 }
