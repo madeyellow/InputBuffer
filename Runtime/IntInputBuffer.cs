@@ -3,7 +3,7 @@ using MadeYellow.InputCaching.Abstractions;
 namespace MadeYellow.InputCaching
 {
     /// <summary>
-    /// Buffers input value of type <see cref="int"/>
+    /// Buffers input value of type <see cref="int"/>. Best for buffering single axis
     /// </summary>
     [System.Serializable]
     public class IntInputBuffer : InputBufferValueBase<int>
