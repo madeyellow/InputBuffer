@@ -27,7 +27,7 @@ namespace MadeYellow.InputBuffer
         /// </summary>
         public void Set()
         {
-
+            SetTimestamp();
         }
     }
 }
