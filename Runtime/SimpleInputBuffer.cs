@@ -1,6 +1,6 @@
-using MadeYellow.InputCaching.Abstractions;
+using MadeYellow.InputBuffer.Abstractions;
 
-namespace MadeYellow.InputCaching
+namespace MadeYellow.InputBuffer
 {
     /// <summary>
     /// Buffers input fact. Best for buffering button press.

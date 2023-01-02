@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MadeYellow.InputCaching.Abstractions
+namespace MadeYellow.InputBuffer.Abstractions
 {
     /// <summary>
     /// Basis for buffering input data

@@ -1,4 +1,4 @@
-namespace MadeYellow.InputCaching.Abstractions
+namespace MadeYellow.InputBuffer.Abstractions
 {
     /// <summary>
     /// 

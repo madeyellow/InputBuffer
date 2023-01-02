@@ -1,7 +1,7 @@
-using MadeYellow.InputCaching.Abstractions;
+using MadeYellow.InputBuffer.Abstractions;
 using UnityEngine;
 
-namespace MadeYellow.InputCaching
+namespace MadeYellow.InputBuffer
 {
     /// <summary>
     /// Buffers input value of type <see cref="Vector3"/>
