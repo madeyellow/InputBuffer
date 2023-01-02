@@ -6,7 +6,7 @@ The `InputBuffer` allows store fact of input (*and also input value*) for a conf
 First of all declare input buffer:
 
 ```csharp
-using MadeYellow.InputCaching;
+using MadeYellow.InputBuffer;
 
 
 public SimpleInputBuffer jumpInputBuffer = new SimpleInputBuffer(); // Init input buffer
