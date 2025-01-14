@@ -1,5 +1,5 @@
 # What is it?
-The `InputBuffer` allows store fact of input (*and also input value*) for a configurable time span & check if buffer isn't expired at any given moment.
+Simple yet effective package that buffers (aka remember) some input with 4 lines of code. Check if buffer isn't expired at any given moment, configure buffer's lifetime, cache input values, etc.
 
 ## Where and why I should use it?
 
