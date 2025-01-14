@@ -56,3 +56,7 @@ Debug.Log(vectorBuffer.value); // Will log (1.00, 1.00)
 ## Recomendations
 
 * **Don't** reuse single `InputBuffer` instance for various input actions: one instance for *jumping*, another for *dashing*, etc.
+
+## Having trouble or a feature request?
+
+Create an issue and I'll do my best to help you or add a new usefull feature to that package.
